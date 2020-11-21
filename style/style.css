@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 88px;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 100px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search input {
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 16px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search i {
+    color: white;
+    font-size: 25px;
+}
+
+.search-container {
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    z-index: 10;
+    background-color: #454E53;
+    left: 100px;
+    top: 230px;
+    border-radius: 30px;
+}
+
+#map {
+    height: 100vh;
+}
+
+.stores-list-container {
+    width: 400px;
+    border-radius: 30px;
+    background-color: white;
+    top: 320px;
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+    bottom: 20px;
+}

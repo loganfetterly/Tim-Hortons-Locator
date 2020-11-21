@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tim Hortons Store Locator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    </head>
+    <body>
+        <div class="title store-locator">Tim Hortons Locator</div>
+        <div class="search-container">
+            <div class="search">
+                <input id="postal-code" type="text" placeholder="Enter Postal Code">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+        <div class="stores-list-container">
+
+        </div>
+        <div id="map"></div>
+        <script src="js/index.js" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKqaoa4kkny6R89v_Fz7GbMRqulEJMrto&callback=initMap" async defer></script>
+    </body>
+</html>
